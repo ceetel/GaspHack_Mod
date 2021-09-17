@@ -1,7 +1,7 @@
 # GaspHack_Mod
 
 移除字体文件的hint描述
-如果嫌麻烦可以直接用我这里的已经修改好的[字体文件](workingDir/output/):
+如果嫌麻烦可以直接用我这里的已经[修改好的字体文件](workingDir/output/):
 
 ## 1. 备份 `C:\Windows\Fonts`
 
