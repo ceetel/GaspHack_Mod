@@ -8,6 +8,9 @@
 !library.zip
 !python27.dll
 !ttx.exe
+!workingDir/
+!workingDir/output/
+!workingDir/input/
 !workingDir/output/msjh.ttc
 !workingDir/output/msjhbd.ttc
 !workingDir/output/msjhl.ttc
