@@ -6,11 +6,20 @@
 
 **国内连不上使用[我的gitee仓库](https://gitee.com/tallsone/GaspHack_Mod)**
 
+## 0. 正常运行流程
+
+    0.1. 拷贝所有C:\Windows\Fonts文件夹内的字体文件到workingDir/input目录
+    0.2. 读取workingDir/input目录内的字体文件修改hint后输出到workingDir/output目录
+
+**`workingDir/ttc_temp`为暂存区,存放着正在处理中的字体文件**
+
 ## 1. 备份 `C:\Windows\Fonts`
 
-* 字体输入文件夹(相当于备份不要删除): workingDir\input
+**自由备份C:\Windows\Fonts到任意位置input文件夹虽然放置着原版字体文件但下次运行时会被清空!**
 
-* 字体输出文件夹: workingDir\output
+* 字体输入文件夹: [workingDir\input](workingDir/output/)
+
+* 字体输出文件夹: [workingDir\output](workingDir/input/)
 
 **将需要替换的字体文件单独保存到 `C:\Fonts`**
 
@@ -29,7 +38,7 @@
 
 * 「设置 - 更新和安全 - 恢复 - 高级启动 - 立即重新启动」-->RE下「疑难解答 - 命令提示符」
 
-``` shell
+```bat
 # 命令提示符下，c盘不一定是系统的c盘，用dir确认一下
 xcopy /E C:\Fonts C:\Windows\Fonts
 ```
