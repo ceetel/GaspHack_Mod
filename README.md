@@ -17,9 +17,9 @@
 
 **自由备份C:\Windows\Fonts到任意位置input文件夹虽然放置着原版字体文件但下次运行时会被清空!**
 
-* 字体输入文件夹: [workingDir\input](workingDir/output/)
+* 字体输入文件夹: [workingDir\input](workingDir/input/)
 
-* 字体输出文件夹: [workingDir\output](workingDir/input/)
+* 字体输出文件夹: [workingDir\output](workingDir/output/)
 
 **将需要替换的字体文件单独保存到 `C:\Fonts`**
 
