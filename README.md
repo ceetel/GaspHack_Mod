@@ -17,7 +17,6 @@
 
 * 字体输出文件夹: [workingDir\output](workingDir/output/)
 
-
 ## 1. 备份 `C:\Windows\Fonts`
 
 **自由备份C:\Windows\Fonts到任意位置input文件夹虽然放置着原版字体文件但下次运行时会被清空!**
