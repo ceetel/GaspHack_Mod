@@ -30,8 +30,8 @@ pause
 
 REM copy fonts from C:\Windows\Fonts, you can edit this part if you want to use your own fonts
 cd workingDir\input
-copy C:\Windows\Fonts\*.ttf .\
-copy C:\Windows\Fonts\*.ttc .\
+copy C:\Windows\Fonts\msjh*.ttc .\
+copy C:\Windows\Fonts\msyh*.ttc .\
 del webdings.ttf wingding.ttf marlett.ttf
 
 REM deal with .ttf
