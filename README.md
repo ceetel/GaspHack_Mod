@@ -7,7 +7,7 @@
 **国内连不上使用[我的gitee仓库](https://gitee.com/tallsone/GaspHack_Mod)**
 
 ## 0. 正常运行流程
-
+    管理员方式运行GaspHack_v2_MOD.bat
     0.1. 拷贝所有C:\Windows\Fonts文件夹内的字体文件到workingDir/input目录
     0.2. 读取workingDir/input目录内的字体文件修改hint后输出到workingDir/output目录
 
@@ -19,7 +19,7 @@
 
 ## 1. 备份 `C:\Windows\Fonts`
 
-**自由备份C:\Windows\Fonts到任意位置input文件夹虽然放置着原版字体文件但下次运行时会被清空!**
+**自主备份C:\Windows\Fonts到任意位置input文件夹虽然放置着原版字体文件但下次运行时会被清空!**
 
 ## 2. 保存
 
