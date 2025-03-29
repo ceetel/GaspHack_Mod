@@ -32,6 +32,8 @@ REM copy fonts from C:\Windows\Fonts, you can edit this part if you want to use 
 cd workingDir\input
 copy C:\Windows\Fonts\msjh*.ttc .\
 copy C:\Windows\Fonts\msyh*.ttc .\
+copy C:\Windows\Fonts\NotoSansSC-VF.ttf .\
+
 del webdings.ttf wingding.ttf marlett.ttf
 
 REM deal with .ttf
