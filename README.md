@@ -33,6 +33,7 @@
 * msyh.ttc
 * msyhbd.ttc
 * msyhl.ttc
+* NotoSansSC-VF.ttf
 
 *建议不要将宋体之类的替换掉 !*
 
